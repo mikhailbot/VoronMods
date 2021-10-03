@@ -10,7 +10,7 @@ Print `300mm.stl` purge bucket instead of the default. The right side bucket is 
 
 ## Macro Addition
 
-I've also made a small change to the purge bucket selection changing it from simply random left or right, to picking a side based on their size (whicherver side is defined as wider will get used more).
+I've also made a small change to the purge bucket selection changing it from simply random left or right, to picking a side based on their size (whichever side is defined as wider will get used more).
 
 Simply replace the below lines:
 
@@ -23,19 +23,18 @@ with these:
 
 ```
 ### Randomly select left or right bin for purge based on their width. 0 = left, 1 = right
- {% set LEFT_PERCENTAGE = (bucket_left_width / (bucket_left_width + bucket_right_width) * 100) %}
- {% set RAND = (range(100) | random) %}
+{% set LEFT_PERCENTAGE = (bucket_left_width / (bucket_left_width + bucket_right_width) * 100) %}
+{% set RAND = (range(100) | random) %}
 
- {% if RAND <= LEFT_PERCENTAGE %}
+{% if RAND <= LEFT_PERCENTAGE %}
 
-    SET_GCODE_VARIABLE MACRO=clean_nozzle VARIABLE=bucket_pos VALUE=0
+   SET_GCODE_VARIABLE MACRO=clean_nozzle VARIABLE=bucket_pos VALUE=0
 
- {% else %}
+{% else %}
 
-    SET_GCODE_VARIABLE MACRO=clean_nozzle VARIABLE=bucket_pos VALUE=1
+   SET_GCODE_VARIABLE MACRO=clean_nozzle VARIABLE=bucket_pos VALUE=1
  
- {% endif %}
-
+{% endif %}
 ```
 
 Also ensure you've updated `variable_bucket_left_width` and `variable_bucket_right_width` to the correct values (default or otherwise).
