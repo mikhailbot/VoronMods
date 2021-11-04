@@ -6,7 +6,7 @@ This is a small modification to the 300mm purge bucket by [edwardyeeks](https://
 
 ## BOM
 
-Print `300mm.stl` purge bucket instead of the default. The right side bucket is slightly narrower to accomodate the bed Wagos.
+Print `300mm.stl` purge bucket instead of the default. The right side bucket is slightly narrower to accomodate the bed Wagos. Also have an STL that is a modified bed Wago mount that only attaches to one side. Unsure of the creator of the mod from DFH's original.
 
 ## Macro Addition
 
@@ -16,7 +16,7 @@ Simply replace the below lines:
 
 ```
 ### Randomly select left or right bin for purge. 0 = left, 1 = right
-SET_GCODE_VARIABLE MACRO=clean_nozzle VARIABLE=bucket_pos VALUE={(range(2) | random)}	
+SET_GCODE_VARIABLE MACRO=clean_nozzle VARIABLE=bucket_pos VALUE={(range(2) | random)}
 ```
 
 with these:
@@ -33,7 +33,7 @@ with these:
 {% else %}
 
    SET_GCODE_VARIABLE MACRO=clean_nozzle VARIABLE=bucket_pos VALUE=1
- 
+
 {% endif %}
 ```
 
@@ -44,5 +44,6 @@ Special thanks to Cyndane in the Discord as well.
 ## Changelog
 2021-10-02
 	- Added slightly modified purge bucket selection macro
+
 2021-09-30
 	- Initial release
