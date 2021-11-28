@@ -42,6 +42,9 @@ Also ensure you've updated `variable_bucket_left_width` and `variable_bucket_rig
 Special thanks to Cyndane in the Discord as well.
 
 ## Changelog
+2021-11-27
+   - Added buckets for 250mm and 300mm beds
+
 2021-10-02
 	- Added slightly modified purge bucket selection macro
 
