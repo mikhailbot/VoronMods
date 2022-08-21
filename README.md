@@ -17,4 +17,4 @@ A collection of mods of mods for Voron 3D Printers. Checkout the main collection
 ### Trident Bowden Guide
 > This is a small modification to the original mod by [GalvanicGlaze](https://github.com/GalvanicGlaze/Voron_Mods/tree/main/Trident%20Bowden%20tube%20PTFE%20guide) to use a heatset insert and M3x8 screw.
 
-<a href="Decontaminator-Purge-Bucket"><img src="Trident-Bowden-Guide/Images/Trident-Bowden-Guide.png" alt="Picture of mod" style="max-height: 400px"></a>
+<a href="Trident-Bowden-Guide"><img src="Trident-Bowden-Guide/Images/Trident-Bowden-Guide.png" alt="Picture of mod" style="max-height: 400px"></a>
