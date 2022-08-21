@@ -1,8 +1,8 @@
 # PTFE bowden tube guide for Trident Mod
 
-![Image of bowden guide](Images/Trident-Bowden-Guide.jpeg)
+![Image of bowden guide](Images/Trident-Bowden-Guide.png)
 
-This is a small modification to the original mode by [GalvanicGlaze](https://github.com/GalvanicGlaze/Voron_Mods/tree/main/Trident%20Bowden%20tube%20PTFE%20guide) to use a heatset insert and M3x8 screw.
+This is a small modification to the original mod by [GalvanicGlaze](https://github.com/GalvanicGlaze/Voron_Mods/tree/main/Trident%20Bowden%20tube%20PTFE%20guide) to use a heatset insert and M3x8 screw.
 
 ## BOM
 - M3x8 Bolt x2 and M3 T-nut x1
