@@ -6,6 +6,7 @@ This is a small modification to the original mod by [GalvanicGlaze](https://gith
 
 ## BOM
 - M3x8 Bolt x2 and M3 T-nut x1
+- M3x5x4 Heat Set Insert
 - Optional 4mm drill bit for cleaning out bowden tube path
 
 ## Installation
