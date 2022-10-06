@@ -15,5 +15,9 @@ This is a small modification to the original mod by [GalvanicGlaze](https://gith
 - Screw arm on with M3x8 heatset, allowing the arm to still be able to swivel
 
 ## Changelog
+2022-10-06
+- Change print orientation
+- Add chambers for cleaner printing in new orientation
+
 2022-08-21
 - Initial release
